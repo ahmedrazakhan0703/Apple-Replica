@@ -1,0 +1,626 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+button {
+  cursor: pointer;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img,
+.icons img,
+.nav-links ul li {
+  cursor: pointer;
+}
+
+.nav-links ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.hero1 {
+  width: 100%;
+  height: 700px;
+  background-image: url("./assets/hero1.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+.hero1section {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero1section h1 {
+  font-size: 3.5rem;
+}
+
+.hero1section p {
+  font-size: 1.7rem;
+  text-align: center;
+}
+
+.hero1section button {
+  margin-top: 1rem;
+  padding: 12px 30px;
+  border: none;
+  background-color: #0066cc;
+  color: white;
+  border-radius: 1.2rem;
+  cursor: pointer;
+}
+
+.hero2 {
+  margin-top: 1rem;
+  width: 100%;
+  height: 700px;
+  background-image: url("./assets/section2.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+.hero2section {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero2section h1 {
+  font-size: 3.5rem;
+}
+
+.hero2section p {
+  font-size: 1.7rem;
+  text-align: center;
+}
+
+.hero2section .hero2btn1 {
+  margin-top: 1rem;
+  padding: 0.8rem 2rem;
+  border: none;
+  background-color: #0066cc;
+  color: white;
+  border-radius: 1.2rem;
+  cursor: pointer;
+}
+
+.hero2section .hero2btn2 {
+  margin-top: 1rem;
+  padding: 0.8rem 2rem;
+  border: 1px solid #0066cc;
+  background-color: transparent;
+  color: #0066cc;
+  border-radius: 1.2rem;
+  cursor: pointer;
+}
+
+.hero2section .hero2btn2:hover {
+  background-color: #0066cc;
+  color: white;
+}
+
+.hero3 {
+  margin-top: 1rem;
+  width: 100%;
+  height: 700px;
+  background-image: url("./assets/section3.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+.hero3section {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero3section h1 {
+  font-size: 3.5rem;
+}
+
+.hero3section p {
+  font-size: 1.7rem;
+  text-align: center;
+}
+
+.buttons1 {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.hero3section .hero3btn1 {
+  margin-top: 1rem;
+  padding: 0.8rem 2rem;
+  border: none;
+  background-color: #0066cc;
+  color: white;
+  border-radius: 1.2rem;
+  cursor: pointer;
+}
+
+.hero3section .hero3btn2 {
+  margin-top: 1rem;
+  padding: 0.8rem 2rem;
+  border: 1px solid #0066cc;
+  background-color: transparent;
+  color: #0066cc;
+  border-radius: 1.2rem;
+  cursor: pointer;
+}
+
+.hero3section .hero3btn2:hover {
+  background-color: #0066cc;
+  color: white;
+}
+
+.hero4 {
+  margin-top: 1rem;
+  width: 100%;
+  height: 700px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+.hero4section1 {
+  width: 49%;
+  background-image: url("./assets/hero4section1.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero4section1 .ipad {
+  margin-top: 2.5rem;
+}
+
+.hero4section1 .para {
+  font-size: 1.3rem;
+}
+
+.buttons1 {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.hero4sec1btn1 {
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #0066cc;
+  color: white;
+  border-radius: 1rem;
+}
+
+.hero4sec1btn2 {
+  padding: 0.5rem 1rem;
+  border: 1px solid #0066cc;
+  color: #0066cc;
+  background-color: transparent;
+  border-radius: 1rem;
+}
+
+.hero4sec1btn2:hover {
+  color: white;
+  background-color: #0066cc;
+}
+
+/* SECTION 4 */
+
+.hero4section2 {
+  width: 49%;
+  background-image: url("./assets/macbook.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero4section2 .mac {
+  margin-top: 2.5rem;
+  color: white;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.hero4section2 .para {
+  font-size: 1.3rem;
+  color: white;
+  text-align: center;
+}
+
+.buttons2 {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.hero4sec2btn1 {
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #0066cc;
+  color: white;
+  border-radius: 1rem;
+}
+
+.hero4sec2btn2 {
+  padding: 0.5rem 1rem;
+  border: 1px solid #0066cc;
+  color: #0066cc;
+  background-color: transparent;
+  border-radius: 1rem;
+}
+
+.hero4sec2btn2:hover {
+  color: white;
+  background-color: #0066cc;
+}
+
+/* SECTION 5 */
+.hero5 {
+  margin-top: 1rem;
+  width: 100%;
+  height: 700px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+.hero5section1 {
+  width: 49%;
+  background-image: url("./assets/watch.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero5section1 .series {
+  margin-top: 2.5rem;
+}
+
+.hero5section1 .para {
+  font-size: 1.3rem;
+}
+
+.buttons1 {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.hero5sec1btn1 {
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #0066cc;
+  color: white;
+  border-radius: 1rem;
+}
+
+.hero5sec1btn2 {
+  padding: 0.5rem 1rem;
+  border: 1px solid #0066cc;
+  color: #0066cc;
+  background-color: transparent;
+  border-radius: 1rem;
+}
+
+.hero5sec1btn2:hover {
+  color: white;
+  background-color: #0066cc;
+}
+
+.hero5section2 {
+  width: 49%;
+  background-image: url("./assets/ipadpro.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero5section2 .ipadpro {
+  margin-top: 2.6rem;
+  color: white;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.hero5section2 .para {
+  font-size: 1.3rem;
+  color: white;
+  text-align: center;
+}
+
+.buttons2 {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.hero5sec2btn1 {
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #0066cc;
+  color: white;
+  border-radius: 1rem;
+}
+
+.hero5sec2btn2 {
+  padding: 0.5rem 1rem;
+  border: 1px solid #0066cc;
+  color: #0066cc;
+  background-color: transparent;
+  border-radius: 1rem;
+}
+
+.hero5sec2btn2:hover {
+  color: white;
+  background-color: #0066cc;
+}
+
+/* SECTION 6 */
+
+.hero6 {
+  margin-top: 1rem;
+  width: 100%;
+  height: 700px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+.hero6section1 {
+  width: 49%;
+  background-image: url("./assets/trade.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero6section1 .tradein {
+  margin-top: 2.5rem;
+}
+
+.hero6section1 .para {
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.buttons1 {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.hero6sec1btn1 {
+  padding: 0.8rem 1.6rem;
+  border: none;
+  background-color: #0066cc;
+  color: white;
+  border-radius: 1.5rem;
+}
+
+.hero6section2 {
+  width: 49%;
+  background-image: url("./assets/debit.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero6section2 .card {
+  margin-top: 2.6rem;
+  color: white;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.hero6section2 .para {
+  font-size: 1.7rem;
+  color: black;
+  text-align: center;
+}
+
+.buttons2 {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.hero6sec2btn1 {
+  padding: 0.7rem 1.3rem;
+  border: none;
+  background-color: #0066cc;
+  color: white;
+  border-radius: 1.5rem;
+}
+
+.hero6sec2btn2 {
+  padding: 0.7rem 1.3rem;
+  border: 1px solid #0066cc;
+  color: #0066cc;
+  background-color: transparent;
+  border-radius: 1.5rem;
+}
+
+.hero6sec2btn2:hover {
+  color: white;
+  background-color: #0066cc;
+}
+
+/* FOOTER */
+
+.footer {
+  background-color: #f5f5f7;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #6e6e73;
+  margin-top: 25px;
+  padding-top: 5px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.terms {
+  width: 780px;
+  margin: 20px auto 0 auto;
+  /* padding: 9px 12px 20px 12px; */
+  font-size: 10px;
+  line-height: 12px;
+  color: #6e6e73;
+}
+
+.terms p {
+  margin-bottom: 9px;
+}
+
+.terms .number {
+  margin-right: 2px;
+}
+
+.terms a {
+  color: #555555;
+  text-decoration: underline;
+}
+
+.footer-content {
+    width: 785px;
+    margin: 0 auto;
+    border-top: 1px solid #d2d2d7;
+    padding-top: 13px;
+    display: flex;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.column h3 {
+    font-size: 10px;
+    font-weight: 600;
+    color: #1d1d1f;
+    margin-bottom: 10px;
+}
+
+.column a {
+    font-size: 9px;
+    line-height: 16px;
+    color: #6e6e73;
+    text-decoration: none;
+}
+
+.column a:hover {
+    text-decoration: underline;
+}
+
+.section-title {
+    margin-top: 18px !important;
+}
+
+/* FOOTER LAST SECTION */
+
+.shop-info{
+  width: 785px;
+  margin: 18px auto 0 auto;
+  padding-top: 14px;
+  border-top: 1px solid #d2d2d7;
+  font-size: 10px;
+  line-height: 16px;
+  color: #6e6e73;
+}
+
+.shop-info a{
+   color: #0066cc;
+   text-decoration: none;
+}
+
+.shop-info a:hover{
+  text-decoration: underline;
+}
+
+
+.footer-bottom {
+    width: 785px;
+    margin: 0 auto;
+    padding: 12px 0 20px 0;
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    color: #6e6e73;
+}
+
+
+.legal-links {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  margin-left: 10px;
+}
+
+.legal-links a {
+  color: #6e6e73;
+  text-decoration: none;
+} 
+
+.legal-links a:hover {
+  text-decoration: underline;
+}
+
+.legal-links span{
+  color: #86868b;
+}
+
+.country{
+  margin-left: auto;
+}
